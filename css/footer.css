@@ -1,0 +1,43 @@
+/*footer*/
+footer {
+    background: #1b1f25;
+    padding: 45px 0;
+}
+footer ul.footer-menu {
+    display: inline-block;
+}
+
+footer ul.footer-menu li {
+    display: inline;
+    padding-left: 10px;
+}
+
+footer ul.footer-menu li:first-child {
+    padding-left: 0;
+}
+
+footer ul.footer-menu li:before {
+    content: '/';
+    margin-right: 10px;
+}
+footer ul.footer-menu li:first-child:before {
+    display: none;
+}
+footer ul.footer-menu li a {
+    color: #595d5d;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+footer ul.footer-menu li a:hover {
+    color: rgba(255,255,255,0.7);
+}
+footer .copyright i {
+    color: #595d5d;
+}
+footer .copyright .icon-copyright:before {
+    content: "\e900";
+    position: relative;
+    right: 2px;
+    top: 2px;
+}
+/*footer*/
